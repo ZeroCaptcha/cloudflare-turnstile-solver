@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-turnstile-solver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A zero-dependency Cloudflare Turnstile solver for the command line, on the ZeroCaptcha API.",
+  "license": "MIT",
+  "bin": {
+    "solve-turnstile": "solve-turnstile.mjs"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
